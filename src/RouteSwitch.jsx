@@ -5,7 +5,7 @@ import Profile from "./Profile";
 
 const RouteSwitch = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/app">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/profile" element={<Profile />} />
